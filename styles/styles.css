@@ -649,8 +649,9 @@ textarea {
   
   .navbar {
     padding: 15px 25px;
-    position: relative;
+   
   }
+
 
   .logo {
     font-size: 22px;
@@ -663,9 +664,9 @@ textarea {
   .nav-menu {
     display: none;
     flex-direction: column;
-    position: absolute;
+ 
     top: 100%;
-    left: 0;
+
     width: 100%;
     background: rgba(0, 0, 0, 0.93);
     padding: 20px 25px;
@@ -709,7 +710,7 @@ textarea {
   }
 
   .por {
-    width: 90%;
+    width: 80%;
   }
 
   .navPortafolio {
@@ -850,8 +851,8 @@ textarea {
   }
 
    .images {
-    grid-template-columns: repeat(2, 52%);
-    grid-template-rows: repeat(4, 290x);
+    grid-template-columns: repeat(1, 52%);
+    grid-template-rows: repeat(1, 290x);
     height: auto;  
   }
   .images img {
